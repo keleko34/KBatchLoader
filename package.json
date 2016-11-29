@@ -1,0 +1,28 @@
+{
+  "name": "kbatchloader",
+  "version": "0.0.0",
+  "description": "An async batch file loader built for speedy server file retrievals when order doesnt matter",
+  "main": "KBatchLoader/Min/KBatchLoader.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keleko34/KBatchLoader.git"
+  },
+  "keywords": [
+    "batch",
+    "loading",
+    "file",
+    "loader"
+  ],
+  "author": "keleko34",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/keleko34/KBatchLoader/issues"
+  },
+  "homepage": "https://github.com/keleko34/KBatchLoader#readme",
+  "devDependencies": {
+    "K_Tasks": "^0.4.9"
+  }
+}
