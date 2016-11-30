@@ -1,6 +1,6 @@
 {
   "name": "kbatchloader",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An async batch file loader built for speedy server file retrievals when order doesnt matter",
   "main": "KBatchLoader/Min/KBatchLoader.min.js",
   "scripts": {
