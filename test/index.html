@@ -23,19 +23,20 @@
           test2.innerHTML += e.content;
         }
       });
-      batchLoader.fetchBatch(new Array(16).fill(0).map(function(v,i){return "js/init"+(i+1)+".js"}),function(contents){
+
+      batchLoader.fetchBatch(Array.apply(null, Array(16)).map(function(v,i){return "js/init"+(i+1)+".js"}),function(contents){
         /*for(var x=0,len=contents.length;x<len;x++)
         {
           test1.innerHTML += contents[x].responseText;
         }*/
       });
-      batchLoader.fetchBatch(new Array(16).fill(0).map(function(v,i){return "css/init"+(i+1)+".css"}),function(contents){
+      batchLoader.fetchBatch(Array.apply(null, Array(16)).map(function(v,i){return "css/init"+(i+1)+".css"}),function(contents){
         /*for(var x=0,len=contents.length;x<len;x++)
         {
           test1.innerHTML += contents[x].responseText;
         }*/
       });
-      batchLoader.fetchBatch(new Array(16).fill(0).map(function(v,i){return "html/init"+(i+1)+".html"}),function(contents){
+      batchLoader.fetchBatch(Array.apply(null, Array(16)).map(function(v,i){return "html/init"+(i+1)+".html"}),function(contents){
         /*for(var x=0,len=contents.length;x<len;x++)
         {
           test1.innerHTML += contents[x].responseText;

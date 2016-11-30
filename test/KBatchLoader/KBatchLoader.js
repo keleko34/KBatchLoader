@@ -73,7 +73,7 @@ define([],function(){
     {
       files.contents = [];
       files.contents.fileNames = files;
-      files.contents.loaded = files.slice().fill(0);
+      files.contents.loaded = files.map(Number.prototype.valueOf,0);
       files.contents.types = files.map(function(file){
         return (file.lastIndexOf('.') !== -1 && file.indexOf('.min') !== file.lastIndexOf('.') ? file.substring((file.lastIndexOf('.')+1),file.length) : 'js');
       });
